@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 const RootLayout = ( props: PropsWithChildren ) => {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
       <body>{props.children}</body>
     </html>
   );
